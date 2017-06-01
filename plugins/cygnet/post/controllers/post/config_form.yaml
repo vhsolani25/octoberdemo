@@ -1,0 +1,10 @@
+name: Post
+form: $/cygnet/post/models/post/fields.yaml
+modelClass: Cygnet\Post\Models\Post
+defaultRedirect: cygnet/post/post
+create:
+    redirect: 'cygnet/post/post/update/:id'
+    redirectClose: cygnet/post/post
+update:
+    redirect: cygnet/post/post
+    redirectClose: cygnet/post/post

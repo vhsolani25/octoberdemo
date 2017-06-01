@@ -1,0 +1,17 @@
+title = "Post"
+url = "/post"
+layout = "default"
+is_hidden = 0
+
+[builderList]
+modelClass = "Cygnet\Post\Models\Post"
+scope = "-"
+displayColumn = "post_title"
+noRecordsMessage = "No records found"
+detailsPage = "-"
+detailsUrlParameter = "id"
+pageNumber = "{{ :page }}"
+sortColumn = "order"
+sortDirection = "asc"
+==
+{% component 'builderList' %}

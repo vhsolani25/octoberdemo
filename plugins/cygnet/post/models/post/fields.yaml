@@ -1,0 +1,23 @@
+fields:
+    post_title:
+        label: 'Post Title'
+        oc.commentPosition: ''
+        span: full
+        type: text
+    post_description:
+        label: 'Post Description'
+        size: ''
+        oc.commentPosition: ''
+        span: full
+        type: richeditor
+    parent:
+        label: Parent
+        oc.commentPosition: ''
+        span: full
+        type: dropdown
+        options: listpost
+    order:
+        label: Order
+        span: full
+        oc.commentPosition: ''
+        type: number

@@ -1,0 +1,11 @@
+plugin:
+    name: 'cygnet.post::lang.plugin.name'
+    description: 'cygnet.post::lang.plugin.description'
+    author: Cygnet
+    icon: oc-icon-adjust
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Post
+        url: cygnet/post/post
+        icon: icon-life-ring

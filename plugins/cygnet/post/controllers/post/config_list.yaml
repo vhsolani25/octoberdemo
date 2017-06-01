@@ -1,0 +1,11 @@
+list: $/cygnet/post/models/post/columns.yaml
+modelClass: Cygnet\Post\Models\Post
+title: Post
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'cygnet/post/post/update/:id'

@@ -1,0 +1,10 @@
+columns:
+    post_title:
+        label: 'Post Title'
+        type: text
+        searchable: true
+        sortable: true
+    order:
+        label: Order
+        type: number
+        sortable: true
