@@ -15,4 +15,6 @@ class Post extends Controller
     {
         parent::__construct();
     }
+
+    
 }

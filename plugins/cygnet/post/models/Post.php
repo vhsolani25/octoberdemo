@@ -28,7 +28,12 @@ class Post extends Model
 
     public function listpost()
     {      
-        $fields =  $this->lists('post_title','id');         
+        $fields =  $this->lists('post_title','id');        
        return $fields;
     }
+    public function test()
+    {
+        return "123";
+    }
+    
 }
