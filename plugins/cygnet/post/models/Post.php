@@ -27,13 +27,12 @@ class Post extends Model
     public $table = 'cygnet_post_';
 
     public function listpost()
-    {      
-        $fields =  $this->lists('post_title','id');        
+    {  
+          
+       $fields =  $this->lists('post_title','id'); 
+       $fields[0]='No Parent';
+       ksort($fields);
+          
        return $fields;
     }
-    public function test()
-    {
-        return "123";
-    }
-    
 }
