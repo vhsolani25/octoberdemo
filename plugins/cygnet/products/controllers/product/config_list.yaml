@@ -1,0 +1,11 @@
+list: $/cygnet/products/models/product/columns.yaml
+modelClass: Cygnet\Products\Models\Product
+title: Product
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'cygnet/products/product/update/:id'

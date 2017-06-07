@@ -1,0 +1,4 @@
+columns:
+    category_name:
+        label: 'cygnet.category::lang.plugin.name'
+        type: text

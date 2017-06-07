@@ -1,0 +1,10 @@
+name: Product
+form: $/cygnet/products/models/product/fields.yaml
+modelClass: Cygnet\Products\Models\Product
+defaultRedirect: cygnet/products/product
+create:
+    redirect: 'cygnet/products/product/update/:id'
+    redirectClose: cygnet/products/product
+update:
+    redirect: cygnet/products/product
+    redirectClose: cygnet/products/product

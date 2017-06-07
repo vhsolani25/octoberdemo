@@ -21,3 +21,15 @@ fields:
         span: full
         oc.commentPosition: ''
         type: number
+    product_id:
+        label: Product
+        span: full
+        oc.commentPosition: ''
+        type: dropdown
+        options: listproducts
+    category_id:
+        label: Category
+        span: full
+        oc.commentPosition: ''
+        type: dropdown
+        options: listcategory

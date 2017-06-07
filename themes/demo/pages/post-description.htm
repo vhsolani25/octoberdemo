@@ -1,0 +1,36 @@
+title = "Post Description"
+url = "/post-description/:id"
+layout = "default"
+is_hidden = 0
+
+[builderDetails]
+modelClass = "Cygnet\Post\Models\Post"
+identifierValue = "{{ :id }}"
+modelKeyColumn = "id"
+displayColumn = "post_description"
+notFoundMessage = "Record not found"
+
+[sidebarmenu]
+==
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+        <div class="col-md-3">
+            
+        </div>
+        <div class="col-md-9">
+            {% set record = builderDetails.record %}
+{% set displayColumn = builderDetails.displayColumn %}
+{% set notFoundMessage = builderDetails.notFoundMessage %}
+
+{% if record %}
+	<h1>{{ record.post_title|raw  }}</h1>
+    {{ record.post_description|raw  }}
+    
+{% else %}
+    {{ notFoundMessage }}
+{% endif %}
+        </div>
+    </div>
+  </div>
+</div>

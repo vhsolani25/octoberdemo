@@ -1,0 +1,10 @@
+name: Category
+form: $/cygnet/category/models/category/fields.yaml
+modelClass: Cygnet\Category\Models\Category
+defaultRedirect: cygnet/category/category
+create:
+    redirect: 'cygnet/category/category/update/:id'
+    redirectClose: cygnet/category/category
+update:
+    redirect: cygnet/category/category
+    redirectClose: cygnet/category/category

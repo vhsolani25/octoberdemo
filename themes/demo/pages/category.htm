@@ -1,0 +1,16 @@
+title = "Category"
+url = "/category/"
+layout = "default"
+is_hidden = 0
+
+[builderList]
+modelClass = "Cygnet\Category\Models\Category"
+scope = "-"
+displayColumn = "category_name"
+noRecordsMessage = "No records found"
+detailsPage = "sidebar"
+detailsKeyColumn = "id"
+detailsUrlParameter = "category"
+pageNumber = "{{ :page }}"
+==
+{% component 'builderList' %}

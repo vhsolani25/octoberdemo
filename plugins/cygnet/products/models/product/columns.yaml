@@ -1,0 +1,4 @@
+columns:
+    product_name:
+        label: 'Product Name'
+        type: text

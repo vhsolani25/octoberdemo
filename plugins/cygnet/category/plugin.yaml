@@ -1,0 +1,11 @@
+plugin:
+    name: 'cygnet.category::lang.plugin.name'
+    description: 'cygnet.category::lang.plugin.description'
+    author: Cygnet
+    icon: oc-icon-adjust
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Category
+        url: cygnet/category/category
+        icon: icon-life-ring

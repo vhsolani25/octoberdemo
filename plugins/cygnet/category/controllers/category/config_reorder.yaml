@@ -1,0 +1,4 @@
+title: Category
+modelClass: Cygnet\Category\Models\Category
+toolbar:
+    buttons: reorder_toolbar

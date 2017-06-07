@@ -1,0 +1,11 @@
+plugin:
+    name: 'cygnet.products::lang.plugin.name'
+    description: 'cygnet.products::lang.plugin.description'
+    author: Cygnet
+    icon: oc-icon-adjust
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Product
+        url: cygnet/products/product
+        icon: icon-bars

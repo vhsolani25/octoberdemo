@@ -3,3 +3,9 @@
 1.0.2:
     - 'Created table cygnet_post_'
     - builder_table_create_cygnet_post_.php
+1.0.3:
+    - 'Updated table cygnet_post_'
+    - builder_table_update_cygnet_post_.php
+1.0.4:
+    - 'Updated table cygnet_post_'
+    - builder_table_update_cygnet_post__2.php
